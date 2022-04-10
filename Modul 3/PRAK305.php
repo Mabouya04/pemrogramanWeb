@@ -24,9 +24,12 @@
         if(isset($_POST['submit'])) {
             $lenght = strlen($kata);
             $spilt = str_split($kata);
+
+            echo"<h2>Input :</h1>";
+            echo"$kata";
+            echo"<h2>Output :</h2>";
             
             $x=0;
-            $y=0;
 
             while($x < $lenght) {
                 echo strtoupper($spilt[$x]);
