@@ -25,7 +25,7 @@
             $lenght = strlen($kata);
             $spilt = str_split($kata);
 
-            echo"<h2>Input :</h1>";
+            echo"<h2>Input :</h2>";
             echo"$kata";
             echo"<h2>Output :</h2>";
             
