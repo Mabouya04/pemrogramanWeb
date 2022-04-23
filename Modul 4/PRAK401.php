@@ -37,6 +37,9 @@
                 $count = count($explo);
                 $x=0;
             
+                if($count > $panjang*$lebar){
+                    echo "Panjang nilai tidak sesuai dengan ukuran matriks";
+                }else{
                 for($i=0; $i< $panjang; $i++){
                     echo "<tr>";
                     for($j=0; $j< $lebar; $j++){
@@ -45,10 +48,9 @@
                     }
                     echo "</tr>";
                 }
+                }
             }
-            else if($count > $panjang*$lebar){
-                echo "Panjang nilai tidak sesuai dengan ukuran matriks";
-            }
+            
         }
     ?>
     </table>
