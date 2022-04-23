@@ -37,7 +37,7 @@
                 $count = count($explo);
                 $x=0;
             
-                if($count > $panjang*$lebar){
+                if($count > $panjang*$lebar || $count < $panjang*$lebar){
                     echo "Panjang nilai tidak sesuai dengan ukuran matriks";
                 }else{
                 for($i=0; $i< $panjang; $i++){
